@@ -1,0 +1,60 @@
+body {text-align: center;}
+p{text-align: left}
+ul	{text-align: left;}
+h2{text-align: left}
+h3{text-align: left;}
+
+body{background-color: #FFFFFF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg fill-opacity='0.9'%3E%3Ccircle fill='%23FFFFFF' cx='50' cy='0' r='50'/%3E%3Cg fill='%23fffcfc' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fff9f9' cx='50' cy='100' r='50'/%3E%3Cg fill='%23fff7f7' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fef4f4' cx='50' cy='200' r='50'/%3E%3Cg fill='%23fef1f1' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23feeeee' cx='50' cy='300' r='50'/%3E%3Cg fill='%23feeceb' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fee9e9' cx='50' cy='400' r='50'/%3E%3Cg fill='%23fde6e6' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fde3e3' cx='50' cy='500' r='50'/%3E%3Cg fill='%23fde1e0' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fcdede' cx='50' cy='600' r='50'/%3E%3Cg fill='%23fcdbdb' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fcd8d8' cx='50' cy='700' r='50'/%3E%3Cg fill='%23fbd6d6' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23fbd3d3' cx='50' cy='800' r='50'/%3E%3Cg fill='%23fad0d0' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%23facdcd' cx='50' cy='900' r='50'/%3E%3Cg fill='%23f9cbcb' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23F9C8C8' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: contain;}
+
+
+
+
+h1 {color: black;font-family: 'DM Serif Display', serif;}
+h2 {color: #91283B; font-family: 'Dancing Script', cursive;}
+h3 {color : black; font-family: 'DM Serif Display', serif;}
+ul {color : black;font-family: 'DM Serif Display', serif;}
+p {font-family: 'DM Serif Display', serif;}
+
+.cadre {background-color:white; 
+	    border: solid 2px #FFC0CB;
+	    border-radius: 5px;
+	    padding: 20px;
+	    margin: 20px;}
+
+.cadre1 {background-color : transparent; 
+	    border: solid 2px transparent;
+	    border-radius: 5px;
+	    padding: 20px;
+	    margin: 20px;}
+
+.cadre2 {
+    background-color: white;
+    border: solid 2px #FFC0CB;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px grey;
+}
+
+
+
+.navbar {display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #E2F3DC;}
+
+.links {display: flex;
+       justify-content: flex-end;}
+
+.link {margin: 10px 30px;
+      color: black;font-family: 'DM Serif Display', serif;}
+
+.link:hover {color: #D2CAEC;}
+
+.logo{float: left;
+      margin-right: 10px;}
